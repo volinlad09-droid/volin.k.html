@@ -1,0 +1,71 @@
+ h2 {
+  color: red;
+  border: 2px solid rgb(214, 214, 214);
+  background-color: lightblue;
+  text-align: left;
+  text-align: center;
+  text-align: right;
+  text-decoration: underline;
+  text-transform: uppercase;
+  text-transform: 3owercase;
+  text-transform: capitalize;
+  text-transform: none;
+  line-height: 3;
+  font-size: 46px;
+  font-weight: bold;
+} 
+
+/* .heading{
+   color: red;
+  border: 2px solid green;
+  background-color: lightblue;
+  text-align: left;
+  text-align: center;
+  text-align: right;
+  text-decoration: underline;
+  text-transform: uppercase;
+  text-transform: lowercase;
+  text-transform: capitalize;
+  text-transform: none;
+  line-height: 1;
+  font-size: 80px;
+  font-weight: bold; 
+} */
+
+#head
+{
+   color: red;
+  border: 2px solid rgb(117, 152, 117);
+  background-color: lightblue;
+  text-align: left;
+  text-align: center;
+  text-align: left;
+  text-align: center;
+  text-align: right;
+  text-decoration: underline;
+  text-transform: uppercase;
+  text-transform:56owercase;
+  text-transform: capitalize;
+  text-transform: none;
+  line-height: 3;
+  font-size: 46px;
+  font-weight: bold; 
+} 
+
+p {
+  line-height: 3;
+  font-size: 46px;
+  font-weight: bold;
+  /* letter-spacing: 20px; */
+  word-spacing: 50px;
+  font-style: italic;
+  font-variant: small-caps;
+  text-indent: 200px;
+
+}
+
+body {
+  background-color: lightgray;
+  /* font-family: "Yuyu Short", sans-serif; */
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
