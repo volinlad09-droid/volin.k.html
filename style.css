@@ -1,0 +1,39 @@
+* , *::after , *::before{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Box-Sizing */
+.box-1{
+  height: 200px;
+  width: 300px;
+  border:10px solid black;
+  padding: 50px;
+  margin: 10px;
+}
+
+.box-2{
+  height: 200px;
+  width: 300px;
+  border:10px solid black;
+  padding: 50px;
+  margin: 10px;
+}
+
+/* Css Disply Properties */
+
+/*
+
+inline
+block
+inline-block
+flex
+inline-flex
+grid
+inline-grid
+table
+None
+
+*/
+
