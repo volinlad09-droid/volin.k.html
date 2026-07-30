@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog Cards</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#0f0f0f;
+    color:#fff;
+    padding:50px;
+}
+
+.blog-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#161616;
+    border-radius:10px;
+    overflow:hidden;
+    transition:.4s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+}
+
+.card-content{
+    padding:18px;
+}
+
+.card h3{
+    font-size:28px;
+    line-height:1.4;
+    margin-bottom:18px;
+}
+
+.card p{
+    color:#9c9c9c;
+    font-size:15px;
+}
+
+.card span{
+    color:#ffffff;
+    font-weight:600;
+}
+</style>
+
+</head>
+<body>
+
+<div class="blog-container">
+
+<div class="card">
+<img src="download (4).jfif" alt="">
+<div class="card-content">
+<h3>Designing Digital Experiences That Connect Brands and People</h3>
+<p><span>By Olivia</span> – July 3, 2026</p>
+</div>
+</div>
+
+<div class="card">
+<img src="download (1).jfif"alt>
+<div class="card-content">
+<h3>From Concept to Launch: Building Products That Truly Matter</h3>
+<p><span>By Daniel</span> – July 8, 2026</p>
+</div>
+</div>
+
+<div class="card">
+<img src="download (2).jfif" alt="">
+<div class="card-content">
+<h3>Why Strong Visual Identity Is the Foundation of Modern Brands</h3>
+<p><span>By Emma</span> – July 12, 2026</p>
+</div>
+</div>
+
+<div class="card">
+<img src="download (3).jfif" alt="">
+<div class="card-content">
+<h3>Creating Impactful Interfaces Through Thoughtful Design Systems</h3>
+<p><span>By Lucas</span> – July 17, 2026</p>
+</div>
+</div>
+
+</div>
+
+</body>
+</html>
