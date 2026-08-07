@@ -1,0 +1,366 @@
+/* ===========================
+   GOOGLE FONT
+=========================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#fafafa;
+    color:#222;
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+img{
+    display:block;
+}
+
+/* ===========================
+   LAYOUT
+=========================== */
+
+.container{
+    display:grid;
+    grid-template-columns:250px 1fr 320px;
+    min-height:100vh;
+}
+
+/* ===========================
+   LEFT SIDEBAR
+=========================== */
+
+.sidebar{
+    background:#fff;
+    border-right:1px solid #ddd;
+    padding:25px;
+    position:sticky;
+    top:0;
+    height:100vh;
+}
+
+.logo{
+    font-size:32px;
+    font-family:cursive;
+    margin-bottom:40px;
+}
+
+.menu{
+    list-style:none;
+}
+
+.menu li{
+    margin:8px 0;
+}
+
+.menu li a{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    padding:14px;
+    border-radius:12px;
+    transition:.3s;
+    font-size:16px;
+}
+
+.menu li a:hover{
+    background:#efefef;
+}
+
+.menu li.active a{
+    background:#f3f3f3;
+    font-weight:600;
+}
+
+.menu i{
+    width:25px;
+    text-align:center;
+    font-size:20px;
+}
+
+/* ===========================
+   MAIN
+=========================== */
+
+.main-content{
+    padding:25px;
+}
+
+/* ===========================
+   TOPBAR
+=========================== */
+
+.topbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:25px;
+}
+
+.search-box{
+    width:70%;
+}
+
+.search-box input{
+    width:100%;
+    padding:12px 18px;
+    border:none;
+    background:#efefef;
+    border-radius:30px;
+    outline:none;
+    font-size:15px;
+}
+
+.create-btn{
+    border:none;
+    background:#ff3040;
+    color:#fff;
+    padding:12px 22px;
+    border-radius:30px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.create-btn:hover{
+    background:#d9002b;
+}
+
+/* ===========================
+   STORIES
+=========================== */
+
+.stories{
+    display:flex;
+    gap:18px;
+    overflow-x:auto;
+    margin-bottom:30px;
+    padding-bottom:10px;
+}
+
+.stories::-webkit-scrollbar{
+    display:none;
+}
+
+.story{
+    text-align:center;
+    min-width:80px;
+}
+
+.story img{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    padding:3px;
+    border:3px solid #ff0066;
+    object-fit:cover;
+    cursor:pointer;
+}
+
+.story span{
+    display:block;
+    margin-top:8px;
+    font-size:13px;
+}
+
+/* ===========================
+   POSTS
+=========================== */
+
+.feed{
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+}
+
+.post{
+    background:#fff;
+    border:1px solid #ddd;
+    border-radius:12px;
+    overflow:hidden;
+}
+
+.post-header{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    padding:15px;
+}
+
+.post-header img{
+    width:45px;
+    height:45px;
+    border-radius:50%;
+}
+
+.post-header h4{
+    font-size:15px;
+}
+
+.post-header small{
+    color:#777;
+}
+
+.post-image{
+    width:100%;
+    max-height:550px;
+    object-fit:cover;
+}
+
+.post-icons{
+    display:flex;
+    gap:20px;
+    font-size:24px;
+    padding:15px;
+}
+
+.post-icons i{
+    cursor:pointer;
+    transition:.3s;
+}
+
+.post-icons i:hover{
+    color:#ff3040;
+}
+
+.post p{
+    padding:0 15px 18px;
+    font-size:15px;
+}
+
+/* ===========================
+   RIGHT SIDEBAR
+=========================== */
+
+.right-sidebar{
+    padding:25px;
+    background:#fff;
+    border-left:1px solid #ddd;
+}
+
+.profile{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    margin-bottom:30px;
+}
+
+.profile img{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+}
+
+.profile h4{
+    font-size:15px;
+}
+
+.profile span{
+    color:#777;
+    font-size:13px;
+}
+
+.right-sidebar h3{
+    margin-bottom:20px;
+    font-size:18px;
+}
+
+.suggestion{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    margin-bottom:18px;
+}
+
+.suggestion img{
+    width:45px;
+    height:45px;
+    border-radius:50%;
+}
+
+.suggestion span{
+    flex:1;
+    margin-left:12px;
+    font-size:14px;
+}
+
+.suggestion a{
+    color:#0095f6;
+    font-weight:600;
+    font-size:14px;
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media(max-width:1100px){
+
+.container{
+    grid-template-columns:90px 1fr;
+}
+
+.right-sidebar{
+    display:none;
+}
+
+.logo{
+    display:none;
+}
+
+.menu li a{
+    justify-content:center;
+    font-size:0;
+}
+
+.menu li a i{
+    font-size:22px;
+}
+
+}
+
+@media(max-width:768px){
+
+.container{
+    display:block;
+}
+
+.sidebar{
+    display:none;
+}
+
+.main-content{
+    padding:15px;
+}
+
+.topbar{
+    flex-direction:column;
+    gap:15px;
+}
+
+.search-box{
+    width:100%;
+}
+
+.create-btn{
+    width:100%;
+}
+
+.story img{
+    width:60px;
+    height:60px;
+}
+
+.post-icons{
+    justify-content:space-around;
+}
+
+}
