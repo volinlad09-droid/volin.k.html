@@ -13,4 +13,14 @@ print("Bill Amount:", bill)
 print("Tip Amount:", tip_amount)
 print("Total Bill:", total_bill)
 print("Number of People:", people)
-print("Each Person Pays:", per_person)
+print("Each Person Pays:", per_person)Enter total bill amount: ₹1000
+Enter tip percentage: 10
+Enter number of people: 4
+
+----- Bill Summary -----
+Bill Amount: 1000.0
+Tip Amount: 100.0
+Total Bill: 1100.0
+Number of People: 4
+Each Person Pays: 275.0
+
