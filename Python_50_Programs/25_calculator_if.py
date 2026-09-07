@@ -1,0 +1,6 @@
+a=float(input("A: ")); op=input("Operator: "); b=float(input("B: "))
+if op=="+": print(a+b)
+elif op=="-": print(a-b)
+elif op=="*": print(a*b)
+elif op=="/": print(a/b if b else "Cannot divide by zero")
+else: print("Invalid operator")
