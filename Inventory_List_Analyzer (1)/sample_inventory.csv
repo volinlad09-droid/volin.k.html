@@ -1,0 +1,6 @@
+SKU,Product,Category,Quantity,Reorder_Level,Unit_Price
+A001,Notebook,Stationery,25,10,80
+A002,Pen,Stationery,6,10,20
+A003,Chair,Furniture,0,2,2500
+A004,Desk,Furniture,4,3,6500
+A005,File Folder,Stationery,12,10,45
