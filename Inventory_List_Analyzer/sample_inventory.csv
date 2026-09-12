@@ -1,0 +1,11 @@
+Item,Category,Quantity,Reorder_Level,Unit_Price
+Rice,Groceries,25,10,55.50
+Sugar,Groceries,6,10,48.00
+Soap,Household,18,8,32.00
+Cooking Oil,Groceries,4,8,145.00
+Tea,Groceries,12,5,210.00
+Shampoo,Personal Care,0,5,120.00
+Biscuits,Snacks,30,12,25.00
+Toothpaste,Personal Care,7,6,85.00
+Detergent,Household,3,8,95.00
+Notebook,Stationery,20,10,45.00
